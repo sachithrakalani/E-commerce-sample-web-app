@@ -21,19 +21,10 @@
                     <li><a href="shoes.jpg">Shoes</a></li>
                     <li><a href="cosmetics.jpg">Cosmetics</a></li>
                     <li><a href="Jewelry.jpg">Jewelry</a></li>
-                    <li><a href="cart.jpg"><img src="images/shopping-cart.jpg" id="cart"</a></li>
-                    <li><a href="login.jpg"><img src="images/user.jpg" id="cart"</a></li>
+                    <li><a href="cart.jpg"><img src="images/shopping-cart.jpg" id="cart"></a></li>
+                    <li><a href="login.jpg"><img src="images/user.jpg" id="cart"></a></li>
                 </ul>
             </div>
         </section>
-        
-        <div id="hero">
-            <h4>Trade-in-offer</h4>
-            <h2>Super value deals</h2>
-            <h1>On all products</h1>
-            <p>Save more with coupons & up to 70% off!</p>
-            <button>Shop Now</button>
-            <h1>Hello world</h1>
-        </div>
     </body>
 </html>
