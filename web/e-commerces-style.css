@@ -7,3 +7,70 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : SKS
 */
 
+*{
+    padding:0;
+    margin: 0;
+}
+
+#header{
+    
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 10px 5px;*/
+    /*border: 5px solid red;*/
+}
+
+#cart{
+   width: 25px;
+    height: 25px; 
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+    text-align: right;
+    float: right;
+    /*border:1px solid blue;*/
+}
+
+#navbar li{
+    list-style: none;
+    padding:20px 20px;
+    align-items: center;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:#1a1a1a;
+    transition: 0.3s;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color:blueviolet;
+}
+
+/*#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:blueviolet;
+    position: absolute;
+    bottom: -4px;
+    left:20px
+}*/
+
+
+
+
+
+
+    
+    
+
+
+
+
