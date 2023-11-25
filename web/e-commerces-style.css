@@ -16,13 +16,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0
     /*padding: 10px 5px;*/
     /*border: 5px solid red;*/
 }
 
 #cart{
-   width: 25px;
-    height: 25px; 
+    
 }
 
 #navbar{
@@ -62,6 +65,45 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     bottom: -4px;
     left:20px
 }*/
+
+#hero{
+    background-image: url("images/homeback2.jpg");
+    /*background-color:#E3E6F3;*/ 
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position: top 25% right 0 ;
+    height:90vh;
+    width: 88%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    /*border:1px solid red;*/  
+}
+
+#hero h4,h2,h1,p{
+    padding-bottom: 25px;
+}
+
+#hero h1{
+    color:blue;
+}
+
+#hero button{
+    background-image: url("images/homebutton1.jpg");
+    background-color: transparent;
+    color:black;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+
+
 
 
 
