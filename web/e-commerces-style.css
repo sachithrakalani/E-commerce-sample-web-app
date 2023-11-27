@@ -7,25 +7,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : SKS
 */
 
+/*Navigation Bar*/
+
 *{
-    padding:0;
     margin: 0;
+    padding:0;
 }
 
 #header{
-    
     align-items: center;
     justify-content: space-between;
     z-index: 999;
     position: sticky;
     top:0;
     left:0
-    /*padding: 10px 5px;*/
-    /*border: 5px solid red;*/
-}
-
-#cart{
-    
 }
 
 #navbar{
@@ -34,7 +29,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     justify-content: right; 
     text-align: right;
     float: right;
-    /*border:1px solid blue;*/
 }
 
 #navbar li{
@@ -56,15 +50,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     color:blueviolet;
 }
 
-/*#navbar li a.active::after{
-    content: "";
-    width: 30%;
-    height: 2px;
-    background:blueviolet;
-    position: absolute;
-    bottom: -4px;
-    left:20px
-}*/
+/*Home Page Top Section*/
 
 #hero{
     background-image: url("images/homeback2.jpg");
@@ -100,19 +86,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
     cursor: pointer;
-    
 }
 
+/*Home Page Features*/
 
+#featur{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+#featur .fe-box{
+    width: 180px;
+    text-align: center;
+    padding:20px 10px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+}
 
+#featur .fe-box:hover{
+   box-shadow: 10px 10px 54px rgba(70,62,221,0.1); 
+}
 
+#featur .fe-box img{
+    width:100%;
+    margin-bottom:10px;
+}
 
-
-
-    
-    
-
+#featur .fe-box h6{
+    display:inline-block;
+    padding:9px 8px 6px 8px ;
+    line-height: 1;
+    border-radius:4px;
+    color:#088178;
+    background-color:#fddde4;
+}
 
 
 
