@@ -59,5 +59,330 @@
             </div>
         </section>
         
+        <section id="product1" class="section-p1"style="padding:40px 80px">
+            <h2>Featured Products</h2>
+            <p>Summer Collection New Morden Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box2.jpg.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box4.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box3.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Party Frock</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>LKR 5,000.00</h4>
+                    </div
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+            </section>
     </body>
 </html>
