@@ -7,22 +7,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : SKS
 */
 
+/*Navigation Bar*/
+
 *{
-    padding:0;
     margin: 0;
+    padding:0;
 }
 
 #header{
-    
     align-items: center;
     justify-content: space-between;
-    /*padding: 10px 5px;*/
-    /*border: 5px solid red;*/
-}
-
-#cart{
-   width: 25px;
-    height: 25px; 
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
 }
 
 #navbar{
@@ -31,12 +29,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     justify-content: right; 
     text-align: right;
     float: right;
-    /*border:1px solid blue;*/
 }
 
 #navbar li{
     list-style: none;
-    padding:20px 20px;
+    padding:20px 60px;
     align-items: center;
 }
 
@@ -45,6 +42,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     font-size: 16px;
     font-weight: 600;
     color:#1a1a1a;
+    /*border:1px solid red;*/
     transition: 0.3s;
 }
 
@@ -53,23 +51,273 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     color:blueviolet;
 }
 
-/*#navbar li a.active::after{
-    content: "";
-    width: 30%;
-    height: 2px;
-    background:blueviolet;
+/*Home Page Top Section*/
+
+#hero{
+    background-image: url("images/homeback2.jpg");
+    /*background-color:#E3E6F3;*/ 
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position: top 25% right 0 ;
+    height:90vh;
+    width: 88%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    /*border:1px solid red;*/  
+}
+
+#hero h4,h2,h1,p{
+    padding-bottom: 25px;
+}
+
+#hero h1{
+    color:blue;
+}
+
+#hero button{
+    background-image: url("images/homebutton1.jpg");
+    background-color: transparent;
+    color:black;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/*Home Page Features*/
+
+#featur{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#featur .fe-box{
+    width: 180px;
+    text-align: center;
+    padding:20px 10px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+}
+
+#featur .fe-box:hover{
+   box-shadow: 10px 10px 54px rgba(70,62,221,0.1); 
+}
+
+#featur .fe-box img{
+    width:100%;
+    margin-bottom:10px;
+}
+
+#featur .fe-box h6{
+    display:inline-block;
+    padding:9px 8px 6px 8px ;
+    line-height: 1;
+    border-radius:4px;
+    color:#088178;
+    background-color:#fddde4;
+}
+
+/*Iteam View*/
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right:-200px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 200px;
+    height: 310px;   
+    /*min-width:250px;*/
+    margin: 10px 20px;
+    /*padding:5px 5px;*/
+    border:1px solid  #cce7d0;
+    border-radius:20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover{
+   box-shadow: 20px 20px 30px rgba(0,0,0,0.06); 
+}
+
+#img{
+    /*width:100%;*/
+    border-radius:5px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 20px;
+}
+
+#product1 .pro .des .span{
+    color:#606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color:#1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color:rgb(243,181,25);
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    border: 1px solid #cce7d0;
     position: absolute;
-    bottom: -4px;
-    left:20px
-}*/
+    bottom: 10px;
+    right: 10px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/banner2.jpg);
+    width: 100%;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color:#ff3385;
+    font-size:25px;
+}
+#banner h2{
+    color:#ff3385;
+    font-size: 35px;
+    padding: 10px 0;
+}
+#banner span{
+    color:#ff00ff;
+}
+
+#banner .normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:#000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition: 0.2s;
+}
+
+#banner .normal:hover{
+    background:#ff00ff;
+    color:#fff;
+}
+
+#sm-banner{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(images/banner3.jpg);
+    min-width: 580px;
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner h4{
+    color:#000;
+    font-size:20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color:#000;
+    font-size:28px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+#sm-banner span{
+    color:#000;
+    font-size:14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box2{
+  background-image: url(images/banner4.jpg);  
+}
+
+#sm-banner .white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:black;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border:1px solid black;
+    outline:none;
+    transition: 0.2s;
+}
+#sm-banner .banner-box:hover button{
+    background: #cc33ff;
+    border:1px solid black;
+}
+#sm-banner .banner-box2:hover button{
+    background:    #9966ff;
+    border:1px solid black;
+}
 
 
 
 
 
 
-    
-    
+
+
 
 
 
