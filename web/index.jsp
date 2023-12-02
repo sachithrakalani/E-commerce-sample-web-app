@@ -4,16 +4,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="e-commerces-style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <section id="header" style="background: #E3E6F3; width:100%;height:70px;">
-            <a href="#"><img src="images/homebackground1.jpg" id="logo"  style ="float: left;width: 50px;height: 50px; padding:10px 20px"alt=""/></a>
+            <a href="#"><img src="images/home-page/homebackground1.jpg" id="logo"  style ="float: left;width: 50px;height: 50px; padding:10px 20px"alt=""/></a>
             <div>
                 <ul id="navbar">
                     <li><a class="active" href="index.jpg">Home</a></li>
-                    <li><a href="index.jsp">Clothes</a></li>
+                    <li><a href="clothes.jsp">Clothes</a></li>
                     <li><a href="shoes.jsp">Shoes</a></li>
                     <li><a href="cosmetics.jsp">Cosmetics</a></li>
                     <li><a href="Jewelry.jsp">Jewelry</a></li>
@@ -33,23 +33,23 @@
         </div>
         <section id="featur" style="padding:40px 80px;">
             <div class="fe-box">
-                <img src="images/freesh1.jpg" alt="" style="height:150px; width:100px;" >
+                <img src="images/home-page/freesh1.jpg" alt="" style="height:150px; width:100px;" >
                 <h6>Free Shipping</h6>
             </div>
             <div class="fe-box">
-                <img src="images/onlinesh1.jpg" alt="" style="height:150px; width:150px;" >
+                <img src="images/home-page/onlinesh1.jpg" alt="" style="height:150px; width:150px;" >
                 <h6>Online Order</h6>
             </div>
             <div class="fe-box">
-                <img src="images/card1.jpg" alt="" style="height:150px; width:150px;" >
+                <img src="images/home-page/card1.jpg" alt="" style="height:150px; width:150px;" >
                 <h6>Card Payment</h6>
             </div>
             <div class="fe-box">
-                <img src="images/gift.1jpg.jpg" alt="" style="height:150px; width:150px;" >
+                <img src="images/home-page/gift.1jpg.jpg" alt="" style="height:150px; width:150px;" >
                 <h6>Gift Vouchers</h6>
             </div>
             <div class="fe-box">
-                <img src="images/new1.jpg" alt="" style="height:150px; width:100px;" >
+                <img src="images/home-page/new1.jpg" alt="" style="height:150px; width:100px;" >
                 <h6>New Arrivals</h6>
             </div>
         </section>
@@ -59,7 +59,7 @@
             <p>Summer Collection New Morden Design</p>
             <div class="pro-container">
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -75,7 +75,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box2.jpg.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -91,7 +91,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -107,7 +107,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -123,7 +123,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -139,7 +139,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -155,7 +155,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box4.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box4.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -171,7 +171,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -187,7 +187,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box3.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box3.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -203,7 +203,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -219,7 +219,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -235,7 +235,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -251,7 +251,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -267,7 +267,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -283,7 +283,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -299,7 +299,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -315,7 +315,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -331,7 +331,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -347,7 +347,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -363,7 +363,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -392,7 +392,7 @@
             <p>Summer Collection New Morden Design</p>
             <div class="pro-container">
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -408,7 +408,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box2.jpg.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -424,7 +424,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -440,7 +440,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -456,7 +456,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -472,7 +472,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box2.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -488,7 +488,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box4.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box4.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -504,7 +504,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -520,7 +520,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box3.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box3.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -536,7 +536,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
+                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
@@ -571,7 +571,7 @@
         
         <footer class="section-p1">
             <div class="col">
-                <img src="images/homebackground1.jpg" class="logo"alt="" style ="width: 50px;height: 50px">
+                <img src="images/home-page/homebackground1.jpg" class="logo"alt="" style ="width: 50px;height: 50px">
                 <h4>Contact</h4><br>
                 <p><strong>Address:</strong>Hemas,Wawlagala,Baddegama</p>
                 <p><strong>Phone:</strong>0776943623/0711417363</p>
@@ -610,8 +610,8 @@
                 <h4>Install App</h4>
                 <p>From App Store or Google Play</p>
                 <div class="row">
-                    <img src="images/fotter3.jpg" style="width: 150px">
-                    <img src="images/fotter4.jpg" style="width: 150px">
+                    <img src="images/footer/fotter3.jpg" style="width: 150px">
+                    <img src="images/footer/fotter4.jpg" style="width: 150px">
                 </div>
             </div>
 
