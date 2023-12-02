@@ -292,8 +292,9 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 15px 80px;
+    padding: 50px 80px;
     background-color: lightblue;
+    /*border: 1px solid red;*/
 }
 footer .col{
     display: flex;
@@ -337,6 +338,25 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+
+/*CLOTHES PAGE*/
+
+#page-header{
+    background-image: url("images/clothes-page/clothesback1.jpg");
+    width:100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:14px;
+}
+#page-header h2,
+#page-header p{
+    padding-left: 280px;
+/*    border:1px solid red;*/
+}
+
 
 
 
