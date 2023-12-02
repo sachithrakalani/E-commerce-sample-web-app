@@ -49,7 +49,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 /*Home Page Top Section*/
 
 #hero{
-    background-image: url("images/homeback2.jpg");
+    background-image: url("images/home-page/homeback2.jpg");
     /*background-color:#E3E6F3;*/ 
     background-repeat: no-repeat;
     background-position: top right;
@@ -70,7 +70,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     color:blue;
 }
 #hero button{
-    background-image: url("images/homebutton1.jpg");
+    background-image: url("images/home-page/homebutton1.jpg");
     background-color: transparent;
     color:black;
     font-weight: 700;
@@ -193,7 +193,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(images/banner2.jpg);
+    background-image: url("images/home-page/banner2.jpg");
     width: 100%;
     height:40vh;
     background-size: cover;
@@ -239,7 +239,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(images/banner3.jpg);
+    background-image:url("images/home-page/banner3.jpg");
     min-width: 580px;
     height:50vh;
     background-size: cover;
@@ -264,7 +264,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     padding-bottom: 15px;
 }
 #sm-banner .banner-box2{
-  background-image: url(images/banner4.jpg);  
+    background-image: url("images/home-page/banner4.jpg")
 }
 #sm-banner .white{
     font-size: 13px;
