@@ -12,7 +12,7 @@
             <a href="#"><img src="images/home-page/homebackground1.jpg" id="logo"  style ="float: left;width: 50px;height: 50px; padding:10px 20px"alt=""/></a>
             <div>
                 <ul id="navbar">
-                    <li><a class="active" href="index.jpg">Home</a></li>
+                    <li><a class="active" href="index.jsp">Home</a></li>
                     <li><a href="clothes.jsp">Clothes</a></li>
                     <li><a href="shoes.jsp">Shoes</a></li>
                     <li><a href="cosmetics.jsp">Cosmetics</a></li>
