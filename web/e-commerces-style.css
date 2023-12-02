@@ -356,6 +356,22 @@ footer .copyright{
     padding-left: 280px;
 /*    border:1px solid red;*/
 }
+#pagination{
+    text-align: center;
+    padding-bottom:40px; 
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #cc33ff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color:white;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 15px;
+    font-weight: 600;
+}
 
 
 
