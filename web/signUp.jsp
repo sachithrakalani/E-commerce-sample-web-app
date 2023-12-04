@@ -31,7 +31,72 @@
             </div>
         </section>
         
+        <div class="contaniner">
+            <div class="form-box">
+                <h1 id="title">Sign Up</h1>
+                <form>
+                    <div class="input-group">
+                        <div class="input-field" id="fnameField">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            <input type="text" placeholder="First Name">
+                        </div>
+
+                        <div class="input-field" id="lnameField">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            <input type="text" placeholder="Last Name">
+                        </div>
+
+                        <div class="input-field" id="pnoField">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            <input type="text" placeholder="Phone number">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            <input type="email" placeholder="Email">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <p>Lost password <a href="#">Click Here!</a></p>
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" id="signupBtn">Sign up</button>
+                        <button type="button" id="signinBtn" class="disable">Sign in</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
         
+        <script>
+            let signupBtn = document.getElementById("signupBtn");
+            let signinBtn = document.getElementById("signinBtn");
+            let fnameField = document.getElementById("fnameField");
+            let lnameField = document.getElementById("lnameField");
+            let pnoField = document.getElementById("pnoField");
+            let title = document.getElementById("title");
+
+            signinBtn.onclick = function(){
+                fnameField.style.maxHeight ="0";
+                lnameField.style.maxHeight ="0";
+                pnoField.style.maxHeight ="0";
+                title.innerHTML = "Sign In";
+                signupBtn.classList.add("disable");
+                signinBtn.classList.remove("disable");
+            }
+            signupBtn.onclick = function () {
+                fnameField.style.maxHeight = "60px";
+                lnameField.style.maxHeight = "60px";
+                pnoField.style.maxHeight = "60px";
+                title.innerHTML = "Sign Up";
+                signupBtn.classList.remove("disable");
+                signinBtn.classList.add("disable");
+            }
+        </script>
+
         
     </body>
 </html>
