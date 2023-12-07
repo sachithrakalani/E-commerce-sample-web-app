@@ -4,6 +4,8 @@
     Author     : SKS
 --%>
 
+<%@page import="java.util.List"%>
+<%@page import="java.util.ArrayList"%>
 <%@page import="java.sql.*"%>
 <%@page import="java.sql.Statement"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -600,6 +602,28 @@
             <h2>#stayhome</h2>
             <p>Save more with coupons & up to 70% off!</p>
         </div>
+        <%
+            try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
+            Statement st = con.createStatement();
+            String str = "select Iteam_name, Iteam_prices, Iteam_description from iteam_details";
+            ResultSet rs = st.executeQuery(str);
+            while (rs.next()) {
+                String itemName = rs.getString("Iteam_name");
+                int itemPrice = rs.getInt("Iteam_prices");
+                String itemDescription = rs.getString("Iteam_description");
+                out.println(itemName + "<br>");
+                out.println(itemPrice + "<br>");
+                out.println(itemDescription + "<br><hr>");
+            }
+            con.close();
+            } catch (Exception e) {
+            }
+
+
+        %>
+        
         
         <section id="product1" class="section-p1"style="padding:40px 80px">
             <div class="pro-container">
@@ -614,25 +638,7 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                         </div>
-                        <%
-                            try {
-                                Class.forName("com.mysql.jdbc.Driver");
-                                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
-                                Statement st = con.createStatement();
-                                String str = "select Iteam_name,Iteam_prices,Iteam_description from iteam_details";
-                                ResultSet rs = st.executeQuery(str);
-                                while (rs.next()) {
-                        %>
-                            <p>(rs)</p>        
-                            <h4><%=rs.getString("Iteam_name")%></h4>
-                                
-                                <h3>Rs: <%=rs.getInt("Iteam_prices")%></h3>
-
-                        <% }
-                            } catch (Exception e) {
-
-                            }
-                        %>
+                        
                 </div>
                 <button onclick="myFunction()">Try it</button>
 
