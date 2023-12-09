@@ -39,44 +39,40 @@
             <p>Save more with coupons & up to 70% off!</p>
         </div>
         
-        
-        
-        <section id="product1" class="section-p1"style="padding:40px 80px">
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="images/home-page/home-fe-box1.jpg" alt=""id="img" style=" width: 150px; height: 175px;">
-                    <div class="des">
-                        <span>adidas</span>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <%
-                        try {
-                            Class.forName("com.mysql.jdbc.Driver");
-                            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
-                            Statement st = con.createStatement();
-                            String str = "select Iteam_name, Iteam_prices, Iteam_description from iteam_details";
-                            ResultSet rs = st.executeQuery(str);
-                            while (rs.next()) {
-                                String itemName = rs.getString("Iteam_name");
-                                int itemPrice = rs.getInt("Iteam_prices");
-                                //String itemDescription = rs.getString("Iteam_description");
-                                out.println(itemName + "<br>");
-                                out.println(itemPrice + "<br>");
-                                out.println("<html></div></html>");
-                                out.println("<a href=#><i class='fa fa-shopping-cart cart'></i></a>");
-                                out.println("<html></div></div></section></html>");
-                                //out.println("<cart style='width: 40px;height: 40px;line-height: 40px;border-radius: 50px;background-color: #e8f6ea;color: #088178;border: 1px solid #cce7d0;position: absolute; bottom: 10px;right: 10px;'>");
-                                //out.println(itemDescription + "<br><hr>");
-                            }
-                            con.close();
-                        } catch (Exception e) {
-                        }
-                    %>
+        <%
+            try {
+                Class.forName("com.mysql.jdbc.Driver");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
+                Statement st = con.createStatement();
+                String str = "select Iteam_name, Iteam_prices, Iteam_description from iteam_details";
+                ResultSet rs = st.executeQuery(str);
+                while (rs.next()) {
+                    String itemName = rs.getString("Iteam_name");
+                    int itemPrice = rs.getInt("Iteam_prices");
+                    //String itemDescription = rs.getString("Iteam_description");
+                    out.println("<section id='product1' class='section-p1'style='padding:40px 80px;border:1px solid red;'>");
+                    out.println("<div class='pro-container'>");
+                    out.println("<div class='pro'>");
+                    out.println("<img src= 'images/home-page/home-fe-box1.jpg' alt=''id='img' style=' width: 150px; height: 175px;'>");
+                    out.println("<div class='des'>");
+                    out.println("<span>adidas</span>");
+                    out.println("<div class='star'>");
+                    out.println("<i class='fa fa-star'></i>");
+                    out.println("<i class='fa fa-star'></i>");
+                    out.println("<i class='fa fa-star'></i>");
+                    out.println("<i class='fa fa-star'></i>");
+                    out.println("<i class='fa fa-star'></i>");
+                    out.println("</div>");
+                    out.println(itemName + "<br>");
+                    out.println(itemPrice + "<br>");
+                    out.println("</div>");
+                    out.println("<a href=#><i class='fa fa-shopping-cart cart'></i></a>");
+                    out.println("<html></div></div></section></html>");
+                }
+                con.close();
+            } catch (Exception e) {
+            }
+        %>
                   
                     
                     <footer class="section-p1">

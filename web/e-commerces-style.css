@@ -118,6 +118,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 
 #product1{
     text-align: center;
+    border:1px solid red;
 }
 #product1 .pro-container{
     display: flex;
@@ -126,6 +127,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     padding-left: 5px;
     padding-right:-200px;
     flex-wrap: wrap;
+    border:1px solid red;
 }
 #product1 .pro{
     width: 200px;
@@ -183,6 +185,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     position: absolute;
     bottom: 10px;
     right: 10px;
+    border:1px solid red;
 }
 
 
