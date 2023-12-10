@@ -10,14 +10,14 @@
 <%@page import="java.sql.Statement"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Clothes Page</title>
         <link rel="stylesheet" href="e-commerces-style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
+    
         <section id="header" style="background: #E3E6F3; width:100%;height:70px;">
             <a href="#"><img src="images/home-page/homebackground1.jpg" id="logo"  style ="float: left;width: 50px;height: 50px; padding:10px 20px"alt=""/></a>
             <div>
@@ -38,42 +38,42 @@
             <h2>#stayhome</h2>
             <p>Save more with coupons & up to 70% off!</p>
         </div>
-        
-        <%
-            try {
-                Class.forName("com.mysql.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
-                Statement st = con.createStatement();
-                String str = "select Iteam_name, Iteam_prices, Iteam_description from iteam_details";
-                ResultSet rs = st.executeQuery(str);
-                while (rs.next()) {
-                    String itemName = rs.getString("Iteam_name");
-                    int itemPrice = rs.getInt("Iteam_prices");
-                    //String itemDescription = rs.getString("Iteam_description");
-                    out.println("<section id='product1' class='section-p1'style='padding:40px 80px;border:1px solid red;'>");
-                    out.println("<div class='pro-container'>");
-                    out.println("<div class='pro'>");
-                    out.println("<img src= 'images/home-page/home-fe-box1.jpg' alt=''id='img' style=' width: 150px; height: 175px;'>");
-                    out.println("<div class='des'>");
-                    out.println("<span>adidas</span>");
-                    out.println("<div class='star'>");
-                    out.println("<i class='fa fa-star'></i>");
-                    out.println("<i class='fa fa-star'></i>");
-                    out.println("<i class='fa fa-star'></i>");
-                    out.println("<i class='fa fa-star'></i>");
-                    out.println("<i class='fa fa-star'></i>");
-                    out.println("</div>");
-                    out.println(itemName + "<br>");
-                    out.println(itemPrice + "<br>");
-                    out.println("</div>");
-                    out.println("<a href=#><i class='fa fa-shopping-cart cart'></i></a>");
-                    out.println("<html></div></div></section></html>");
+        <div class="items-view" style='padding:40px 80px;'>
+            <%
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
+                    Statement st = con.createStatement();
+                    String str = "select Iteam_name, Iteam_prices, Iteam_description from iteam_details";
+                    ResultSet rs = st.executeQuery(str);
+                    while (rs.next()) {
+                        String itemName = rs.getString("Iteam_name");
+                        int itemPrice = rs.getInt("Iteam_prices");
+                        //String itemDescription = rs.getString("Iteam_description");
+                        out.println("<section id='product1' class='section-p1' >");
+                        out.println("<div class='pro-container'>");
+                        out.println("<div class='pro'>");
+                        out.println("<img src= 'images/home-page/home-fe-box1.jpg' alt=''id='img' style=' width: 150px; height: 175px;'>");
+                        out.println("<div class='des'>");
+                        out.println("<span>adidas</span>");
+                        out.println("<div class='star'>");
+                        out.println("<i class='fa fa-star'></i>");
+                        out.println("<i class='fa fa-star'></i>");
+                        out.println("<i class='fa fa-star'></i>");
+                        out.println("<i class='fa fa-star'></i>");
+                        out.println("<i class='fa fa-star'></i>");
+                        out.println("</div>");
+                        out.println(itemName + "<br>");
+                        out.println("Rs: " + itemPrice + "<br>");
+                        out.println("</div>");
+                        out.println("<a href='#'><i class='fa fa-shopping-cart cart'></i></a>");
+                        out.println("<html></div></div></section></html>");
+                    }
+                    con.close();
+                } catch (Exception e) {
                 }
-                con.close();
-            } catch (Exception e) {
-            }
-        %>
-                  
+            %>
+        </div>          
                     
                     <footer class="section-p1">
                         <div class="col">
@@ -128,5 +128,5 @@
 
     
     
-    </body>
-</html>
+    
+
