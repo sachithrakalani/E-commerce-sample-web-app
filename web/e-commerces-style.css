@@ -116,7 +116,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 
 /*Iteam View*/
 
-/*#product1{
+#product1{
     text-align: center;
 }
 #product1 .pro-container{
@@ -126,14 +126,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     padding-left: 5px;
     padding-right:-200px;
     flex-wrap: wrap;
-    border:1px solid red;
+    /*border:1px solid red;*/
 }
 #product1 .pro{
     width: 200px;
     height: 310px;   
-    min-width:250px;
     margin: 10px 20px;
-    padding:5px 5px;
     border:1px solid  #cce7d0;
     border-radius:20px;
     cursor: pointer;
@@ -184,7 +182,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     position: absolute;
     bottom: 10px;
     right: 10px;
-}*/
+}
 
 /*Banner Section*/
 

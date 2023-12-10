@@ -44,16 +44,18 @@
                     Class.forName("com.mysql.jdbc.Driver");
                     Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
                     Statement st = con.createStatement();
-                    String str = "select Iteam_name, Iteam_prices, Iteam_description from iteam_details";
+                    String str = "select Iteam_name, Iteam_prices, image_path,Iteam_id from iteam_details order by Iteam_id;";
                     ResultSet rs = st.executeQuery(str);
                     while (rs.next()) {
                         String itemName = rs.getString("Iteam_name");
                         int itemPrice = rs.getInt("Iteam_prices");
+                        String imagePath = rs.getString("image_path");
+//                      out.println(imagePath+"<br>");
                         //String itemDescription = rs.getString("Iteam_description");
                         out.println("<section id='product1' class='section-p1' >");
                         out.println("<div class='pro-container'>");
                         out.println("<div class='pro'>");
-                        out.println("<img src= 'images/home-page/home-fe-box1.jpg' alt=''id='img' style=' width: 150px; height: 175px;'>");
+                        out.println("<img src=" + imagePath + " alt=''id='img' style='width: 150px; height: 175px;'>");
                         out.println("<div class='des'>");
                         out.println("<span>adidas</span>");
                         out.println("<div class='star'>");
