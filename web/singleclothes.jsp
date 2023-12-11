@@ -21,7 +21,7 @@
         <div>
             <ul id="navbar">
                 <li><a  href="index.jsp">Home</a></li>
-                <li><a class="active">Clothes</a></li>
+                <li><a class="active" href="clothes.jsp">Clothes</a>
                 <li><a href="shoes.jsp">Shoes</a></li>
                 <li><a href="cosmetics.jsp">Cosmetics</a></li>
                 <li><a href="Jewelry.jsp">Jewelry</a></li>
