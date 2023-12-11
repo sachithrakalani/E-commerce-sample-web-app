@@ -536,6 +536,43 @@ form p a{
     color: #555;
 }
 
+/*SINGLE CLOTH PRODUCT PAGE*/
+
+#prodetails{
+     display: flex;
+     margin-top: 50px;
+ }
+ #prodetails .single-pro-image{
+     width: 40%;
+     /*border:1px solid red;*/
+ }
+ #prodetails .single-pro-details{
+     width: 40%;
+     padding-top: 40px;
+     /*border:1px solid blue;*/
+ }
+ #prodetails .single-pro-details input{
+     width: 30px;
+     height:17px;
+     padding-left: 10px;
+     font-size: 16px;
+     margin-right: 10px;
+     border:1px solid black;
+     border-radius: 3px;
+ }
+ .single-pro-details #normal{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:#fff;
+    background-color: #088178;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition: 0.2s;
+ }
+
 
 
 
