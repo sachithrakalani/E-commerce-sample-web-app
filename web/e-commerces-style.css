@@ -572,8 +572,68 @@ form p a{
     outline:none;
     transition: 0.2s;
  }
-
-
+ 
+ /*ADD TO CART PAGE*/
+ 
+ .cart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.cart .column{
+  flex: 50%;
+}
+ .cart .column .add-to-cart p{
+    font-size: 40px;
+    font-weight: 100;
+    padding: 30px 80px;
+}
+.cart .column .add-to-cart .section-p1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*border:2px solid red;*/
+}
+.cart .column .add-to-cart .section-p1 .dress-details{
+    padding-top: 80px;
+    /*border:2px solid blue;*/
+}
+.cart .column .add-to-cart .section-p1 .dress-details input{
+    width: 20px;
+    height:7px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border:2px solid black;
+    border-radius: 3px;
+}
+.summary{
+    width: 200px;
+    height: 300px;
+    /*background: lightgray;*/
+    /*border:2px solid black;*/
+}
+.summary-details{
+    width: 200px;
+    height: 300px;
+    text-align: left;
+    background: lightgray;
+    /*border:2px solid red;*/
+    padding: 100px 50px;
+}
+.summary-details #normal{
+    font-size: 10px;
+    font-weight: 100;
+    padding: 12px 60px;
+    color:#fff;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition: 0.2s;
+}
 
 
 
