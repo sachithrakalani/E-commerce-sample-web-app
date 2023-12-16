@@ -80,7 +80,7 @@
 
 
         
-<!--        <footer class="section-p1">
+        <footer class="section-p1">
         <div class="col">
             <img src="images/home-page/homebackground1.jpg" class="logo"alt="" style ="width: 50px;height: 50px">
             <h4>Contact</h4><br>
@@ -129,6 +129,6 @@
         <div class="copyright">
             <p>E Commerces App - 2023</p>
         </div>
-    </footer>-->
+    </footer>
     </body>
 </html>

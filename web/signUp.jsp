@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sign-up-Page</title>
         <link rel="stylesheet" href="e-commerces-style.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     </head>
     <body>
@@ -30,73 +30,35 @@
                 </ul>
             </div>
         </section>
-        
+
         <div class="contaniner">
-            <div class="form-box">
-                <h1 id="title">Sign Up</h1>
-                <form>
-                    <div class="input-group">
-                        <div class="input-field" id="fnameField">
-                            <i class="fa fa-user-circle" aria-hidden="true"></i>
-                            <input type="text" placeholder="First Name">
-                        </div>
-
-                        <div class="input-field" id="lnameField">
-                            <i class="fa fa-user-circle" aria-hidden="true"></i>
-                            <input type="text" placeholder="Last Name">
-                        </div>
-
-                        <div class="input-field" id="pnoField">
-                            <i class="fa fa-user-circle" aria-hidden="true"></i>
-                            <input type="text" placeholder="Phone number">
-                        </div>
-
-                        <div class="input-field">
-                            <i class="fa fa-user-circle" aria-hidden="true"></i>
-                            <input type="email" placeholder="Email">
-                        </div>
-
-                        <div class="input-field">
-                            <i class="fa fa-user-circle" aria-hidden="true"></i>
-                            <input type="password" placeholder="Password">
-                        </div>
-                        <p>Lost password <a href="#">Click Here!</a></p>
+            <center>
+                <div class="form-box" style="padding-top:100px;">
+                    <div class="wrapper">
+                        <h1>Sign Up</h1>
+                        <form action="signUp" method="post">
+                            <input type="text" placeholder="First Name" name="First_name">
+                            <input type="text" placeholder="Last Name" name="Last_name">
+                            <input type="text" placeholder="Phone number" name="Phone_number">
+                            <input type="email" placeholder="Email" name="Email">
+                            <input type="password" placeholder="Password" name="Password">
+                            <div class="terms">
+                                <!--<input type="checkbox" class="chech-box"><span id="spn01"> I agree to the terms & conditions</span>-->
+                                <!--<input type="checkbox" id="checkbox" style="padding-left:10px;">I agree to these I agree to these-->  
+                                <!--<lable for="checkbox">I agree to these <a href="#"> I agree to these </a></lable>-->
+                            </div>
+                            <button type="submit">Sign Up</button>
+                            <div class="member">
+                                Already member?<a href="signIn.jsp">Login Here</a>
+                            </div>
+                        </form>
                     </div>
-                    <div class="btn-field">
-                        <button type="button" id="signupBtn">Sign up</button>
-                        <button type="button" id="signinBtn" class="disable">Sign in</button>
-                    </div>
-
-                </form>
-            </div>
+                </div>
+            </center>
         </div>
-        
-        <script>
-            let signupBtn = document.getElementById("signupBtn");
-            let signinBtn = document.getElementById("signinBtn");
-            let fnameField = document.getElementById("fnameField");
-            let lnameField = document.getElementById("lnameField");
-            let pnoField = document.getElementById("pnoField");
-            let title = document.getElementById("title");
 
-            signinBtn.onclick = function(){
-                fnameField.style.maxHeight ="0";
-                lnameField.style.maxHeight ="0";
-                pnoField.style.maxHeight ="0";
-                title.innerHTML = "Sign In";
-                signupBtn.classList.add("disable");
-                signinBtn.classList.remove("disable");
-            }
-            signupBtn.onclick = function () {
-                fnameField.style.maxHeight = "60px";
-                lnameField.style.maxHeight = "60px";
-                pnoField.style.maxHeight = "60px";
-                title.innerHTML = "Sign Up";
-                signupBtn.classList.remove("disable");
-                signinBtn.classList.add("disable");
-            }
-        </script>
         
+
         <footer class="section-p1">
             <div class="col">
                 <img src="images/home-page/homebackground1.jpg" class="logo"alt="" style ="width: 50px;height: 50px">
