@@ -25,7 +25,7 @@
                     <li><a href="cosmetics.jsp">Cosmetics</a></li>
                     <li><a href="Jewelry.jsp">Jewelry</a></li>
                     <!--<li><a href="cart.jsp"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>-->
-                    <li><a href="addtocart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
+                    <li><a href="cart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                     <li><a class="active" href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
                 </ul>
             </div>

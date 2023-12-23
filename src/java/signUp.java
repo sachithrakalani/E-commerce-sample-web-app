@@ -90,7 +90,7 @@ public class signUp extends HttpServlet {
             pst.setString(4, email);
             pst.setString(5, password);
             pst.executeUpdate();
-            response.sendRedirect("clothes.jsp");
+            response.sendRedirect("index.jsp");
         }
         catch(Exception e){
             out.print(e);

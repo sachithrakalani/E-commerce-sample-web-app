@@ -94,7 +94,7 @@ public class signIn extends HttpServlet {
                 String storedPassword = rs.getString("Password");
                 if (password.equals(storedPassword)) {
 
-                    response.sendRedirect("clothes.jsp");
+                    response.sendRedirect("index.jsp");
                 } else {
                     out.println("Incorrect password");
                 }

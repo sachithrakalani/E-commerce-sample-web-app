@@ -25,7 +25,7 @@
             <li><a href="shoes.jsp">Shoes</a></li>
             <li><a href="cosmetics.jsp">Cosmetics</a></li>
             <li><a href="Jewelry.jsp">Jewelry</a></li>
-            <li><a href="addtocart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
+            <li><a href="cart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
             <li><a href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
         </ul>
     </div>
@@ -37,6 +37,7 @@
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerces", "root", "");
         Statement st = con.createStatement();
         String itemId = request.getParameter("id");
+        //int val= Integer.parseInt(request.getParameter("num"));
         //out.println(itemId);
         String str = "select Iteam_id, Iteam_name, Iteam_prices,Iteam_description, image_path from iteam_details where Iteam_id = " + itemId;
         ResultSet rs = st.executeQuery(str);
@@ -52,7 +53,7 @@
             out.println("<div class='single-pro-details'>");
             out.println("<h3>" + itemName + "</h3> <br><br>");
             out.println("<h2> Rs: " + itemPrice + "</h2> <br><br>");
-            out.println("<input type='number' value='1'>");
+            out.println("<input type='number' value='0' id ='num'>");
             //out.println("<button id='normal' onclick='addToCart(" + itemName + ","+ itemPrice + ")'>Add To Cart</button> <br><br>");
             //String buttonScript = "addToCart('" + itemName + "','" + itemPrice + "')";
             //out.println("<button id='normal' onclick='" + buttonScript + "'>Add To Cart</button>");
@@ -69,6 +70,9 @@
 
 <script>
     function addToCart(itemName, itemPrice, imagePath) {
+        //var val = document.getElementById(num).value;
+        var value = document.getElementById("num").value;
+        //console.log (value);
         // Step 1: Retrieve existing data from localStorage
         var existingItems = localStorage.getItem('items');
 
@@ -80,7 +84,7 @@
             name: itemName,
             prices: itemPrice,
             image: imagePath,
-            qty: 1
+            qty: value
         };
         itemsArray.push(newItem);
 
@@ -91,7 +95,7 @@
         localStorage.setItem('items', updatedItems);
 
         // Optional: Log the updated array
-        console.log(updatedItems);
+        //console.log(updatedItems);
     }
 </script>
 
@@ -151,7 +155,3 @@
 
 </body>
 </html>
-
-
-
-
